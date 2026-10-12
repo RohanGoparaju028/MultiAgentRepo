@@ -1,3 +1,3 @@
 #ifndef credential_h
-void authenticateGithubCredential();
+void authenticateGithubCredential(std::string repo_name);
 #endif

@@ -15,7 +15,7 @@ int main() {
  bool flag = isGitInitialized();
  if(flag) {
   std::cout<<"git is initialized in the current directory"<<std::endl;
-  authenticateGithubCredential();
+  authenticateGithubCredential("BitMesh");
  } else{
    std::cout<<"git is uninsitalized in the current directory"<<std::endl;
  }
