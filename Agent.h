@@ -1,5 +1,5 @@
 #ifndef Agent_h
-void createAgent();
+void createAgent(std::string repoUrl);
 void BuildKnowldgeGraph(std::string repo);
 void IssueTracker(std::string repo);
 #endif
