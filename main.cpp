@@ -25,7 +25,7 @@ int main() {
     createAgent(repo_path);
   }
  } else{
-   std::cout<<"git is uninsitalized in the current directory"<<std::endl;
+   std::cout<<"git is uninsitalized in the current directory this is important because the ai model will look at the git folder and process the git commits to understand the construction."<<std::endl;
  }
  return 0;
 }
